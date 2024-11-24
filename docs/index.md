@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Welcome to Chemistry
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A simple explanatory page for studying Chemistry. Made with love. Designed for self-studying. If you have any remarks or found a mistakes, feel free to contact me via mail at <polscheit@students.uni-mainz.de>.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Note, as I'm a student studying Chemistry at the University of Mainz, this site may not be free of mistakes.

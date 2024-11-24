@@ -1,10 +1,13 @@
 site_name: My Docs
-site_url: https://7a.de
+site_url: https://fabi7006.github.io/chemistry/
 theme:
   name: material
   features:
     - navigation.footer
     - navigation.instant
+    - search.suggest
+    - search.highlight
+    - search.share
   palette:
     # Dark Mode
     - scheme: slate
@@ -23,6 +26,8 @@ theme:
       accent: deep purple
 
 markdown_extensions:
+  - md_in_html
+  - pymdownx.blocks.caption
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -32,6 +37,7 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - toc
 
 extra:
   social:
@@ -39,3 +45,6 @@ extra:
       link: https://www.instagram.com/fabi_7006/
 
 copyright: Copyright &copy; 2024 Fabian Polscheit
+
+plugins:
+  - search
